@@ -1,0 +1,24 @@
+@import "./App.scss";
+
+.title-bar {
+  height: 120px;
+}
+
+.title-menu {
+  height: 30px;
+  width: 30px;
+  padding: 0;
+  border: none;
+  color: gray;
+}
+
+.num-members {
+  background: lightgray;
+  color: $color-dark;
+  font-size: small;
+  font-weight: bold;
+}
+
+.main {
+  padding-left: 280px;
+}
