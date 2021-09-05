@@ -1,0 +1,45 @@
+@import "../../App.scss";
+
+.task-card {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+}
+
+.tags {
+  font-size: 0.7em;
+  border-radius: 50%;
+  background-color: $color-tag;
+  color: $color-dark;
+  border: 0.1em solid white;
+  width: 1.7em;
+  height: 1.7em;
+  font-weight: normal;
+}
+
+.tagname {
+  font-size: 0.7em;
+  border-radius: 1em;
+  height: 1.7em;
+}
+
+.research {
+  background-color: $color-research-bg;
+  color: $color-research;
+}
+
+.design {
+  background-color: $color-design-bg;
+  color: $color-design;
+}
+
+.backend {
+  background-color: $color-backend-bg;
+  color: $color-backend;
+}
+
+.days {
+  text-align: end;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+}

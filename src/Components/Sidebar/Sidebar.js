@@ -95,8 +95,7 @@ function Search() {
 }
 
 function Profile() {
-  var imageLink =
-    "https://media-exp1.licdn.com/dms/image/C5103AQGKx-9yVO-V8w/profile-displayphoto-shrink_100_100/0?e=1599696000&v=beta&t=igp8JPO4vgYny3eSP60VQwNKcIJrSSw4wMFBESfx5sg";
+  var imageLink = "https://picsum.photos/20";
   return (
     <div className="container profile py-2 px-4">
       <div className="row">
@@ -129,5 +128,3 @@ function Profile() {
     </div>
   );
 }
-
-// export default Sidebar;
