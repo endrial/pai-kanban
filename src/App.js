@@ -137,7 +137,7 @@ class App extends React.Component {
               <div className="col-auto p-0">
                 <Logo style={{ maxWidth: "40px" }} />
               </div>
-              <div className="col-auto h3">Kanban Prosa</div>
+              <div className="col-auto h3 font-weight-bold">Kanban Prosa</div>
               <button className="col-auto rounded-circle title-menu">
                 <KebabHorizontalIcon size={12} className="octicon" />
               </button>
@@ -149,7 +149,7 @@ class App extends React.Component {
                     className="rounded-circle member-main mx-1"
                   />
                   <div className="col-auto rounded-pill num-members py-1">
-                    69 Members
+                    70 Members
                   </div>
                 </div>
               </div>
