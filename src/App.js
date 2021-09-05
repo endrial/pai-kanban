@@ -5,7 +5,8 @@ import { dataTasks } from "./dataTask";
 import { Sidebar } from "./Components/Sidebar/Sidebar";
 import { List } from "./Components/List/List";
 import { DragDropContext } from "react-beautiful-dnd";
-
+import { KebabHorizontalIcon } from "@primer/octicons-react";
+import { ReactComponent as Logo } from "./logo.svg";
 class App extends React.Component {
   state = dataTasks;
 
@@ -131,6 +132,29 @@ class App extends React.Component {
       <div>
         <Sidebar />
         <div className="container-fluid main">
+          <div className="container-fluid title-bar mt-3">
+            <div className="container d-flex h-100 align-items-center">
+              <div className="col-auto p-0">
+                <Logo style={{ maxWidth: "40px" }} />
+              </div>
+              <div className="col-auto h3">Kanban Prosa</div>
+              <button className="col-auto rounded-circle title-menu">
+                <KebabHorizontalIcon size={12} className="octicon" />
+              </button>
+              <div className="col-auto col-md">
+                <div className="row justify-content-end">
+                  <img
+                    src="https://picsum.photos/30"
+                    alt="member"
+                    className="rounded-circle member-main mx-1"
+                  />
+                  <div className="col-auto rounded-pill num-members py-1">
+                    69 Members
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="container d-lg-block d-xl-flex">
             <DragDropContext onDragEnd={this.onDragEnd}>
               {this.state.columnOrder.map((columnId) => {

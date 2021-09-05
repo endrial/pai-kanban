@@ -7,7 +7,7 @@ export class Task extends React.Component {
     var created_date = new Date(start_date);
     var today = new Date();
     var days_passed = Math.floor(
-      (today.getTime() - created_date.getTime()) / (1000 * 3600 * 24)
+      (today.getTime() - created_date.getTime()) / (100010 * 3600 * 24)
     );
     return days_passed > 0 ? days_passed + " days ago" : "today";
   };
