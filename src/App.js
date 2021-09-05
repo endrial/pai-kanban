@@ -178,6 +178,7 @@ class App extends React.Component {
             <a
               className="text-white"
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/tolend95/pai-kanban"
             >
               Repository
