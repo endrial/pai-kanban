@@ -173,6 +173,16 @@ class App extends React.Component {
               })}
             </DragDropContext>
           </div>
+          <footer className="fixed-bottom text-white ml-1">
+            See{" "}
+            <a
+              className="text-white"
+              target="_blank"
+              href="https://github.com/tolend95/pai-kanban"
+            >
+              Repository
+            </a>
+          </footer>
         </div>
       </div>
     );
